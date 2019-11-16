@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+h1{
+    color: rgba(0, 100, 100, 100);
+    font-size: 50px;
+    text-align: center;
+    font-family: "PT Sans";
+    
+}
+
+h2 {
+    color: #606060;
+    font-size: 40px;
+    text-align: right;
+    font-family: "PT Sans";
+}
+
+.box {
+    width: auto;
+    display: flex;
+}
+
+.col {
+    flex: 0 1 100%;
+    height: 100px;
+}
+
+.col2 {
+    flex: 0 1 100%;
+    font-size: x-large;
+    font-family: "PT Sans";
+    color: crimson;
+    text-align: center;
+}
+
+.col3 {
+    flex: 0 1 100%;
+    text-align: center;
+    font-size: x-large;
+    font-family: "PT Sans";
+    color: #606060;
+}
+
+.logo {
+    max-height: 100px;
+    margin: 20px;
+}
+
+
+.menu-main {
+    list-style: none;
+    margin: 40px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: gold;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: gold;
+    text-align: center;
+    font-family: "PT Sans";
+}
